@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="Hickies2.css">
+    <script src="https://kit.fontawesome.com/b45a582300.js" crossorigin="anonymous"></script>
+    
+   
+    <title>Hickies Originals</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            
+            <h1 class="col font-weight-bolder" style="background:white">HICKIES Originals</h1>
+            
+        </div>
+        <p></p>
+        <div class="row" style="background: white">
+             <img src="download.png" class="stars">
+             <p class="font-weight-bold">&nbsp &nbsp &nbsp &nbsp1.293 reviews</p>
+            
+        </div>
+        
+        <div class="row">
+            <p id="red">$14.99</p>
+            <p id="p2">&nbsp&nbsp&nbsp&nbsp$17.99 </p>
+            <p id="p3">25% OFF</p>
+        </div> 
+
+        <h1 id="hh" >ONLINE EXCLUSIVE</h1>
+        
+        <p></p>
+
+        <p id="color">COLOR:</p>
+       
+        <pre style="display: inline" id="box"></pre>
+        <p></p>
+        <div col-xm->
+        <div class="btnTop">
+            <button id="brown" class="brown dot" onclick="showme('brown')"></button>
+            <button id="purple" class="dot" onclick="showme('purple')"></button>
+            <button id="black" class="dot" onclick="showme('black')"></button>
+            <button id="white" class="dot" onclick="showme('white')"></button>
+            <button id="orange"class="dot" onclick="showme('orange')"></button>
+            <button id="yellow"class="dot" onclick="showme('yellow')"></button>
+            <button id="blue"class="dot"  onclick="showme('blue')"></button>
+            <button id="bluish"class="dot"  onclick="showme('bluish')"></button> 
+            <button id="burlywood"class="dot"  onclick="showme('burlyWood')"></button>
+            <button id="skyblue"class="dot"  onclick="showme('skyblue')"></button>
+            <button id="lime" class=" dot"  onclick="showme('lime')"></button>
+            
+        </div>
+        <div class="  btnBotton">
+            <button id="pink"class="dot"  onclick="showme('pink')"></button>
+            <button id="khaki"class="dot" onclick="showme('khaki')"></button>
+            <button id="green"class="dot" onclick="showme('green')"></button>
+            <button id="grey" class="dot" onclick="showme('grey')"></button> 
+            <button id="army"class="dot" onclick="showme('army')"></button>
+            <button id="Vividblue"class="dot" onclick="showme('Vividblue')"></button>
+            <button id="clay"class="dot" onclick="showme('clay')"></button>
+            
+        </div>
+    </div>
+        <p></p>
+        <div id="size">
+            <p><b>Size Guide</b></p>
+            <p></p>
+            <p><b>Your Custom Fit</b></p>
+
+        </div>
+        <div >
+            <button  id="counter" type="button" class="btn" disabled="">0</button>
+        
+             <button [href]="#" id="AddToCart" type="button" class="btn" data-Toggle="modal" data-target="#myModal"  data-backdrop="false" >Add To Cart</button>
+        </div>
+      <p></p>
+        <div class="col" id="bottomsection">
+            <hr>
+            <p id="details"><b>DETAILS</b></p>
+            <div id="empty" style="margin-top: 10px"></div>
+            <p id='colors' class='colors'></p>
+            <hr>
+            <p><b>Need Help?</b> </p>
+            <p><b>Shipping & Returns</b></p>
+        </div>
+    </div>
+
+    <div id="myModal" class="bg-modal ">
+            <div class="modal " >
+                
+                <span  id="heading" style="text-align: center"><b >Please add the quantity of the item you have selected</b></p>
+                
+                <div id="button_modal">
+                   <p id="colozz"></p>
+                    <button id="minus" type="button" onclick="minus()" style="display: inline"><i class="fas fa-minus-circle"></i></button>
+                    <p id="btwn" style="display: inline">0</p>
+                    <button id="plus" type="button" onclick="plus()" style="display: inline"><i class="fas fa-plus-circle"></i></button>
+                </div>
+                <div>
+                    <button id="agree" type="button" class="agree" >Agree</button>
+                    <button id="Cancel" type="button" class="Cancel">Cancel</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div> 
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+--> <script src="Hickies.js"></script>
+    
+</body>
+</html>
