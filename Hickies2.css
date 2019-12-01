@@ -1,0 +1,290 @@
+
+/*center webpage*/
+.container{
+    max-width: 500px;
+    margin-top: 60px;
+}
+
+.stars{
+    margin-left:30px;
+    display: block;
+    height: 15px;
+}
+.row p{
+   
+    color: grey;
+}
+#red{
+    display:inline;
+    color:red;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left:15px; 
+    
+}
+#p2{
+    margin-top:6px;
+    margin-left:45px;
+    font-weight: bold;
+}
+#p3{
+    margin-top:6px;
+    margin-left:45px;
+    font-weight: bold;   
+}
+#hh {
+    font-size: 85%;
+    margin-left:10px
+}
+#color{
+    display:inline;
+    font-weight: bold;
+}
+#size{
+    margin-left: 2px;
+}
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+#brown{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+    background-color: brown;
+    
+}
+#purple{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color:#590ef0;
+}
+#black{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: black;
+}
+#white{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: white;
+}
+#orange{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: orange;
+}
+#yellow{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: yellow;
+}
+#blue{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+    color: #590ef0;
+   background-color:#0e59f0 ;
+}
+#bluish{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: #23628c;
+}
+#burlywood{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: burlywood;
+}
+#skyblue{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: #42aff5;
+}
+#lime{
+     border: none;
+    margin-right:10px;
+   background-color: lime;
+}
+#pink{
+
+    padding: 0;
+    border: none;
+    margin-right:10px;
+    background-color: rgb(233, 73, 172);
+}
+#khaki{
+    border: none;
+    margin-right:10px;
+   background-color:#dab7b4;
+}
+#green{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: green;
+}
+#grey{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: grey;
+}
+#army{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color:rgb(51, 46, 46);
+}
+#clay{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: #dcdcdc ;
+}
+#Vividblue{
+    padding: 0;
+    border: none;
+    margin-right:10px;
+   background-color: #42eff5;
+}
+
+
+#AddToCart{
+    width:239px;
+    border-width: thin;
+    background-color:black;
+    border-radius: 20px;
+    color: white;
+    
+}
+#counter{
+    border-radius: 30px;
+    padding: 7px 20px;
+    background-color: white;
+    border-color: lightslategray;
+    border-width: thin;
+    
+}
+#details{
+    margin-left:10px;
+    margin-top: 30px;
+    margin-bottom: 10px
+}
+
+
+.bg-modal{
+   /*position: fixed;*/
+   width: 100%;
+   height: 100%;
+  
+   background-color: rgba(0,0,0,0.4);
+   position: relative;
+   top: 0;
+   padding: 250px 25px;
+   justify-content: center;
+   display: none;
+   
+}
+
+.modal{
+    
+    border-style: double;
+    height: 210px;
+    width: 380px;
+    background-color: white; 
+     display: flex;
+     
+     
+}
+
+
+#color_modal{
+    margin-top: 10px;
+    display: inline;
+    
+    margin-left:30%;
+}
+#heading{
+    margin-top: 10px;
+    margin-left:20px; 
+    text-align: center;
+    font-size:13px;
+}
+
+#minus{
+    position: absolute;
+    left: 40%;
+    top:30%;
+    background-color: black;
+    border:none;
+    
+   
+   padding-block: 40px;
+    background-color: white;
+    font-size: 50px;
+    margin-left: 0px;
+    /*margin: 4px 10px;*/
+}
+#plus{
+    position: absolute;
+    left:70%;
+    top:30%;
+    border: none;
+    background-color: black;
+    background-color: white;
+    font-size: 50px;
+    margin-left: 10px;
+}
+#btwn{
+    position: absolute;
+    left: 55%;
+    top:40%;
+    text-align: center;
+    font-size: 34px;
+    margin: 0px 19px;
+}
+.agree{
+    position: absolute;
+    right: 135px;
+    top: 80%;
+    border-radius: 5px;
+    background-color: #caf5b3;
+    color: black;
+    border: 2px solid #77a150;
+}
+.Cancel{
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    right: 60px;
+    background-color: #f9e2d2 ;
+    color: black;
+    border: 2px solid #b45918;
+}
+#colozz{
+    position: absolute;
+    left: 13%;
+    top:44%;
+   font-size: 19px
+}
+
+
+#bottomsection hr{
+    margin-right: 50px;
+    border:1px solid black;
+    
+    }
+
